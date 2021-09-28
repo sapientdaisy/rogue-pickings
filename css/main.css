@@ -187,35 +187,26 @@ footer span {
 
 /*****TABLET STYLES******/
 
-@media only screen and (min-width: 600px)  {
+@media only screen and (min-width: 768px)  {
 
 	.bottom-section {
-	margin: 0 auto;
-	display: flex;
-    justify-content: center;
-    align-items: flex-start;
-	flex-flow: row wrap;
-}
+			align-items: flex-start;
+		}
 
 	.section-one,
 	.section-two,
 	.section-three {
 		width: 30%;
-		display: flex;
 		justify-content: flex-start;
 		align-items: top;
-		flex-flow: row wrap;
 	}
 }
 
 /*****DESKTOP STYLES******/
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 1200px) {
 
 	header h1 {
-		border-bottom: 3px solid #77a466;
-		margin: 0;
-		padding: 38px 0;
-		display: flex;
+		border: none;
 		justify-content: flex-start;
 		align-items: flex-start;
 		flex-flow:initial;
@@ -227,17 +218,10 @@ footer span {
 		display: flex;
 		flex-flow: row wrap;
 		justify-content:flex-end;
-		/*padding: 46px 0;*/
+		
 	}
-	header nav ul {
-		margin: 0;
-		padding: 0;
-	}
+
 	header nav ul li {
-		text-transform: uppercase;
-		font-weight: 700;
-		font-size: 14px;
-		padding: 1em 1em;
 		display: inline;
 
 	}
